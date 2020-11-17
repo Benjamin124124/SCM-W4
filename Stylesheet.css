@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+}
+header {
+display: inline;
+text-align: left;
+}
+header h1 {
+    display: inline;
+    margin: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 0;
+}
+li {
+    float: left;    
+}
+li a {
+    display: block;
+    color: black;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: solid 1px #991414;
+}
+li a:hover {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: solid 1px #ff6100;
+    background-color: #e9e9e9;
+}
+.headbackground {
+    background-color: #991414;
+    padding: 10px;
+}
+.spacer {
+    height: 5px;
+}
